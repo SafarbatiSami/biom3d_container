@@ -3,7 +3,7 @@
   "name": "Biom3d-Workflow-Omero",
   "description": "3D segmentation using Biom3d",
   "container-image": {
-    "image": "samisafarbati/w_biom3d-workflow-omero",
+    "image": "samisafarbati/pytorch_biom3d",
     "type": "singularity"
   },
   "command-line": "python wrapper.py IMG_DIR MSK_DIR NUM_CLASSES",
